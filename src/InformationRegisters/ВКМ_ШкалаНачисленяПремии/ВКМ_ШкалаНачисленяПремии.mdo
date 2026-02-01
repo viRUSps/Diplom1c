@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="594df796-374c-4835-87e1-c7f6f2f2725c">
+  <producedTypes>
+    <selectionType typeId="748aa787-3077-4dc4-84f1-ed08b5f7aeeb" valueTypeId="03aef8c7-21bc-46ba-aabc-f572fe8a52e6"/>
+    <listType typeId="9db17c7e-9706-474d-97cd-34addfded83e" valueTypeId="fa52b681-d625-4fa9-9f5e-d006e7c1cd74"/>
+    <managerType typeId="f1c2633e-dd41-4ab4-9bc1-115ad84d6743" valueTypeId="e1e6933a-94c9-4b08-8e0e-6928044d4e16"/>
+    <recordSetType typeId="98680dc5-33eb-405e-a110-b5acbef7c0a1" valueTypeId="37a25e54-99d1-46dd-864b-0b2020950bb7"/>
+    <recordKeyType typeId="49671fe9-4c2e-421a-ba7b-7c6d074f8e08" valueTypeId="ab452c73-c4ce-406d-b95b-1cc65d047842"/>
+    <recordType typeId="f0b0b4f0-a794-4331-8020-e2f093573706" valueTypeId="a331a771-ac54-4908-a9e4-ac69c227590a"/>
+    <recordManagerType typeId="debe6276-752a-4a47-b65f-6eb574dd605c" valueTypeId="5c702a3a-9c24-49aa-ba14-45c6a01e767c"/>
+  </producedTypes>
+  <name>ВКМ_ШкалаНачисленяПремии</name>
+  <synonym>
+    <key>ru</key>
+    <value>Шкала начисленя премии</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Шкала начисленя премии</value>
+  </recordPresentation>
+  <resources uuid="a367ab89-e2d6-4c6b-bad5-13f950184557">
+    <name>СуммаПремии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма премии</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="032b20ce-5125-43de-95fc-d68e2ff122ea">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

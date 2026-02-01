@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="36eb31fa-4b6f-4e47-b512-7df7028e8257">
+  <producedTypes>
+    <objectType typeId="a8fc795e-c023-49e8-94be-10d79e44c2a4" valueTypeId="30901957-9b2a-471a-81c5-c24b4c3717dc"/>
+    <managerType typeId="15dc3ee6-1176-4a49-bd02-a0f36b30351d" valueTypeId="2692b16f-57ac-4e7e-b55e-96720f7df786"/>
+  </producedTypes>
+  <name>ВКМ_ГрафикОтпусков</name>
+  <synonym>
+    <key>ru</key>
+    <value>График отпусков</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ВКМ_ГрафикОтпусков.Template.Макет</mainDataCompositionSchema>
+  <templates uuid="27fc8ed3-0230-4a32-82bf-8c3b7bcdabe5">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b8a7a364-f8c0-423e-9aa6-a82a7d538807">
+  <name>ВКМ_ДобавленыеОбъекты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавленые объекты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <subsystems>ВКМ_ОбслуживаниеКлиентов</subsystems>
+  <subsystems>ВКМ_Отпуска</subsystems>
+  <subsystems>ВКМ_Отчеты</subsystems>
+  <subsystems>ВКМ_Расчеты</subsystems>
+</mdclass:Subsystem>
